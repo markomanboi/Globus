@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="The “Convention on the Elimination of All Forms of Discrimination against Women” was held in New York. It discussed and promoted the equality and legal status of women, dimension of human reproduction, and cultural factors on gender relations."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView119"
+        app:layout_constraintTop_toBottomOf="@+id/textView119"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="110dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView118"
+        app:layout_constraintEnd_toEndOf="@+id/textView119"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toEndOf="@+id/textView65"
+        app:layout_constraintTop_toTopOf="@+id/textView119"
+        app:layout_constraintVertical_bias="0.494"
+        app:srcCompat="@drawable/genderequality" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="1979"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView117"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="International Women's Year was the name given to 1975 by the United Nations. Since that year March 8 has been celebrated as International Women's Day."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView116"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="1975"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView65"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="108dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView117"
+        app:layout_constraintEnd_toEndOf="@+id/textView116"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toEndOf="@+id/textView65"
+        app:layout_constraintTop_toTopOf="@+id/textView117"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/womansymbol" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="The “International Convention on the Elimination of All Forms of Racial Discrimination” comes into play. The Convention urged its members in eliminating racial discrimination and promoted the understanding among all races"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="113dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView65"
+        app:layout_constraintEnd_toEndOf="@+id/textView60"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView65"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:srcCompat="@drawable/racism" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="1969"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

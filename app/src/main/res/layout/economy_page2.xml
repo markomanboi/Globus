@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="125dp"
+        android:layout_height="135dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toEndOf="@+id/textView44"
+        app:layout_constraintTop_toTopOf="@+id/textView44"
+        app:layout_constraintVertical_bias="0.093"
+        app:srcCompat="@drawable/imf" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="The World Bank is a global institution which grants loans to the governing bodies of poor countries due to the purpose of achieving capital projects. The primary goal of the World Bank is to reduce global poverty. In times of war, they are responsible for providing financial assistance to countries devastated by war. "
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="International Monetary Fund"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:fontFamily="@font/alegreya_sc_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView44"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="@+id/textView44"
+        app:layout_constraintTop_toBottomOf="@+id/textView41"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginBottom="76dp"
+        android:justificationMode="inter_word"
+        android:text="The International Monetary Fund or IMF is a transnational organization which aims to promote financial stability and economic growth of countries. The goals of the IMF are to reduce global poverty, encourage trade participation of nations, and to improve quality of life. The three functions of the IMF are lending, capacity development, and keeping watch of economic development."
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:text="World Bank"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:fontFamily="@font/alegreya_sc_bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView41"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="131dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toEndOf="@+id/textView41"
+        app:layout_constraintTop_toTopOf="@+id/textView41"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/worldbank" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

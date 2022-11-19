@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="240dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137"
+        app:srcCompat="@drawable/society" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="141dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView60"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toEndOf="@+id/textView65"
+        app:layout_constraintTop_toBottomOf="@+id/textView64"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sociocultural" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="167dp"
+        android:layout_height="117dp"
+        android:justificationMode="inter_word"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="It is the theories that describe how society and culture changes with time. Observed by how society changes as it gains new technology."
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView64"
+        app:layout_constraintTop_toBottomOf="@+id/textView64"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Sociocultural Evolution"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:fontFamily="@font/alegreya_sc_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="A society is a social group of people who share a common cultural and economic organization which differentiates them from others and holds a sense of connection with one another. In this sense, a global society is the shared value of mankind in relation to transnational networks and associations which affect inter-state interactions which build the constitution of a global society. It is a state where all of the people in the planet share a common attribute either socially, politically, culturally, or economically."
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Global Society"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:fontFamily="@font/alegreya_sc_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:layout_constraintVertical_bias="0.042" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

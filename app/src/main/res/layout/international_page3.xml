@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="The Universal Declaration of Human Rights was released. It declared that human rights are universal – to be enjoyed by all people, no matter who they are or where they live."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView119"
+        app:layout_constraintTop_toBottomOf="@+id/textView119"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="105dp"
+        android:layout_height="94dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView118"
+        app:layout_constraintEnd_toEndOf="@+id/textView119"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toEndOf="@+id/textView65"
+        app:layout_constraintTop_toTopOf="@+id/textView119"
+        app:layout_constraintVertical_bias="0.444"
+        app:srcCompat="@drawable/civic" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="1948"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView117"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="The United Nations was officialy founded on October 24,1945 in San Francisco. It consisted of 51 members at the time."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView116"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="1945"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView65"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView117"
+        app:layout_constraintEnd_toEndOf="@+id/textView116"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toEndOf="@+id/textView65"
+        app:layout_constraintTop_toTopOf="@+id/textView117"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/un" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Brief History of the United Nations"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:fontFamily="@font/alegreya_sc_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView25"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text='The name "United Nations", coined by United States President Franklin D. Roosevelt was first used in the Declaration by United Nations of 1 January 1942, during the Second World War.'
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="107dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView65"
+        app:layout_constraintEnd_toEndOf="@+id/textView60"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView65"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sprout" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="1942"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61"
+        app:layout_constraintVertical_bias="0.041" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeaturedNews" >
+
+    <ImageView
+        android:id="@+id/btnBack2"
+        android:layout_width="29dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
+        app:srcCompat="@drawable/back" />
+
+
+    <EditText
+        android:id="@+id/textSearch"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/my_button_bg"
+        android:ems="10"
+        android:hint="Search for news..."
+        android:inputType="textPersonName"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/btnSearch"
+
+        android:layout_width="71dp"
+        android:layout_height="42dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/search_icon" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:background="@color/colorBackground"
+        android:id="@+id/swipe_refresh_layout"
+        >
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewNews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:text="Featured News"
+                android:textColor="#2196F3"
+                android:textSize="30sp"
+                app:fontFamily="@font/alegreya_sc_bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleViewer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</FrameLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:fontFamily="@font/alegreya_sc_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+
+        android:text="To promote justice in all forms such as politics, social, economic, and cultural"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView60"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+
+        android:text="To replace war as a means of annexing territories and resources"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView120"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView120"
+        app:layout_constraintTop_toBottomOf="@+id/textView120"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+
+        android:text="To empower weaker states as they press for change and seek to create borders"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView123"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="@+id/textView123"
+        app:layout_constraintTop_toBottomOf="@+id/textView123"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="146dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView120"
+        app:layout_constraintEnd_toEndOf="@+id/imageView25"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/textView120"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/gavel" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="139dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView60"
+        app:layout_constraintStart_toEndOf="@+id/textView60"
+        app:layout_constraintTop_toTopOf="@+id/textView123"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/power" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="112dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView122"
+        app:layout_constraintEnd_toEndOf="@+id/imageView49"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toEndOf="@+id/textView122"
+        app:layout_constraintTop_toBottomOf="@+id/textView120"
+        app:layout_constraintVertical_bias="0.792"
+        app:srcCompat="@drawable/liberal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Globus</string>
+    <string name="title_activity_news">News</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="ciit_news">CIIT News</string>
+    <string name="technology">Technology</string>
+    <string name="sports">Sports</string>
+    <string name="business">Business</string>
+    <string name="politics">Politics</string>
+    <string name="featured_news">Featured News</string>
+    <string name="celebrity_news">Celebrity News</string>
+    <string name="select_a_category">Select a Category</string>
+    <string name="title_activity_about">About</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="about">Globus, from the latin word globus or globe, is a combination of a news viewing app, educational app, and quiz app which aims to educate people about the core concepts of globalization. In addition to this, globus demonstrates how cultural, political, economic, and social information spreads in the world through its new viewing capabilities. It advocates technology as one of the core influences in the increase in globalization.
+</string>
+
+    <string name="developer">This app was made by Mark Raphael Recio, a Bachelor of Science in Computer Science student at CIIT College of Arts and Technology, in partial completion of the courses, Contemporary World and Applications Development and Emerging Technologies.</string>
+
+    <string name="disclaimer">
+Disclaimer: Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, commenting, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favour of fair use.
+
+All information utilized are credited to their respected owners/ authors. The News API used for this is powered by News API and the developer does not take credit for any of the articles used.</string>
+
+    <string name="references">
+1.	Barnett, M. N., &amp; Sikkink, K. (2011). From International Relations to Global Society. Oxford Handbooks Online. doi: 10.1093/oxfordhb/9780199604456.013.0035\n\n
+2.	Freeman, H. A. (1946). The United Nations Organization and international law (3rd ed., Vol. 31). Philadelphia: The Pacifist Research Bureau.\n\n
+3.	Guibernau, M. (2004). Nations Without States: Political Communities in the Global Age, 25(4). Retrieved from https://repository.law.umich.edu/cgi/viewcontent.cgi?article=1293&amp;context=mjil\n\n
+4. Heywood, A. (2015). Global politics. ‪London: Palgrave Macmillan.\n\n
+5.	Mukerjee, G. (2017). Economics of Globalization:A Handbook (1st ed.). Bradford: bookboon.\n\n
+6.	Ritzer, G., &amp; Dean, P. (2010). Globalization A Basic Text (2nd ed.). Chichester: Wiley Blackwell.\n\n
+7.	Scheuerman, W. (2018, November 5). Globalization. Retrieved February 7, 2020, from https://plato.stanford.edu/entries/globalization/\n\n
+8.	Sheffield, J., Korotayev, A., &amp; Grinin, L. (2013). Globalization: yesterday, today, and tomorrow. Place of publication not identified: Isce Publishing.\n\n
+9.	Telò, M. (2018). European Union and New Regionalism: Europe and Globalization in Comparative Perspective. doi: 10.4324/9781315202419
+</string>
+
+</resources>
